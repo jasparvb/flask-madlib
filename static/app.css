@@ -1,0 +1,16 @@
+html {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+body {
+    font-size: 30px;
+}
+
+label {
+    padding: 10px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}

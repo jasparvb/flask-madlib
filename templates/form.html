@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}MadLib{% endblock %}
+{% block content %}
+    <h1>Madlib</h1>
+    <form action="/story">
+        {% for prompt in form_inputs %}
+        <div class="input-group"><label for="{{prompt}}">{{prompt}}</label><input type="text" name="{{prompt}}"></div>
+        {% endfor %}
+        <button>Submit</button>
+    </form>
+{% endblock %}
